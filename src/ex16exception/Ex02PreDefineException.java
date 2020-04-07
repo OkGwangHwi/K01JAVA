@@ -104,7 +104,7 @@ public class Ex02PreDefineException {
 		try {
 			/*
 			 참조변수가 참조 할 객체가 없는 상태이므로 해당 메소드를
-			 호출할 수 없어 ㅇ외가 발생된다.
+			 호출할 수 없어 예외가 발생된다.
 			 */
 			System.out.println(toDay.getTime());
 		}

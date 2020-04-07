@@ -17,6 +17,9 @@ public class Ex03ExceptionCase2 {
 		catch(IOException e) {
 			e.printStackTrace();
 		}
+		catch(NullPointerException e) {
+			System.out.println();
+		}
 	}
 
 	public static void main(String[] args) {

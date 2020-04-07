@@ -30,6 +30,7 @@ public class Ex04HashSet1 {
 		int number = 100;// <- Integer 인스턴스로 저장됨
 		Teacher teacher = new Teacher("김봉두", 55, "체육");
 		
+		
 		/*
 		 3] 객체저장
 		 	: add()메소드를 통해 객체가 정상적으로 저장되면

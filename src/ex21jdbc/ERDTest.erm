@@ -134,8 +134,8 @@
 			<connections>
 			</connections>
 			<display>false</display>
-			<creation_date>2020-03-23 12:19:26</creation_date>
-			<updated_date>2020-03-23 13:00:00</updated_date>
+			<creation_date>2020-03-23 12:19:25</creation_date>
+			<updated_date>2020-03-23 12:59:55</updated_date>
 			<model_property>
 				<name>프로젝트명</name>
 				<value></value>
@@ -286,12 +286,12 @@
 	<contents>
 		<table>
 			<id>0</id>
-			<height>75</height>
-			<width>120</width>
+			<height>107</height>
+			<width>186</width>
 				<font_name>맑은 고딕</font_name>
 				<font_size>9</font_size>
-			<x>83</x>
-			<y>70</y>
+			<x>132</x>
+			<y>97</y>
 			<color>
 				<r>128</r>
 				<g>128</g>
@@ -420,8 +420,8 @@
 			<width>193</width>
 				<font_name>맑은 고딕</font_name>
 				<font_size>9</font_size>
-			<x>480</x>
-			<y>70</y>
+			<x>420</x>
+			<y>76</y>
 			<color>
 				<r>128</r>
 				<g>128</g>
@@ -442,7 +442,7 @@
 							<b>0</b>
 						</color>
 					<child_cardinality>1..n</child_cardinality>
-					<parent_cardinality>0..1</parent_cardinality>
+					<parent_cardinality>1</parent_cardinality>
 					<reference_for_pk>true</reference_for_pk>
 					<name></name>
 					<on_delete_action>RESTRICT</on_delete_action>
@@ -603,7 +603,7 @@
 					<default_value></default_value>
 					<auto_increment>false</auto_increment>
 					<foreign_key>true</foreign_key>
-					<not_null>false</not_null>
+					<not_null>true</not_null>
 					<primary_key>false</primary_key>
 					<unique_key>false</unique_key>
 					<character_set></character_set>

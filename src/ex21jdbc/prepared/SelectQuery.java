@@ -7,17 +7,19 @@ import ex21jdbc.connect.IConnectImpl;
 public class SelectQuery extends IConnectImpl{
 
 	public SelectQuery() {
-		super("kosmo","1234");
+		super("kosmo", "1234");
 	}
-	
+
 	@Override
 	public void execute() {
-		try {
+		try
+		{
 			while(true)
 			{
 				String sql = "SELECT * FROM member "
-						//+ " WHERE name LIKE '%?%'";//부적합한 열 인덱스
-						  + " WHERE name LIKE '%'||?||'%'";
+				//	+ " WHERE name LIKE '%?%'";//부적합한 열 인덱스
+					+ " WHERE name LIKE '%'||?||'%'";
+	
 				
 				psmt = con.prepareStatement(sql);
 				psmt.setString(1, scanValue("찾는이름"));
@@ -27,10 +29,10 @@ public class SelectQuery extends IConnectImpl{
 					String pass = rs.getString(2);
 					String name = rs.getString(3);
 					String regidate = 
-							rs.getString(4).substring(0,10);
-					
+							rs.getString(4).substring(0, 10);
+
 					System.out.printf("%s %s %s %s\n",
-							id,pass,name,regidate);
+							id, pass, name, regidate);
 				}
 			}
 		}
@@ -41,6 +43,7 @@ public class SelectQuery extends IConnectImpl{
 			close();
 		}
 	}
+
 	public static void main(String[] args) {
 		new SelectQuery().execute();
 	}
