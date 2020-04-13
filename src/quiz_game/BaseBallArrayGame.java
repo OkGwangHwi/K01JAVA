@@ -9,7 +9,7 @@ public class BaseBallArrayGame {
 		
 		Random random = new Random();
 		Scanner scanner = new Scanner(System.in);
-		
+		//아아아아
 		//게임에서 사용할 변수
 		int[] com = new int[3];		
 		int[] user = new int[3];
