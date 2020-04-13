@@ -24,6 +24,7 @@ class Increment{ //100번지를 가짐
 		num++;
 		}
 	}
+	
 	/*
 	 -synchronized 선언으로 정확한 결과는 나왔지만 코드 실행 시간이
 	 엄청나게 증가하게 된다.
