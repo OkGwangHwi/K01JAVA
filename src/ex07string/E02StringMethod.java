@@ -63,7 +63,7 @@ public class E02StringMethod {
 				
 		/*
 		 6] contains() : 문자열에 특정 문자열이 포함되어있는지
-		 				판단하여 포함되었으면 true 아니면 false 를 반혼한다.
+		 				판단하여 포함되었으면 true 아니면 false 를 반환한다.
 		 */
 				System.out.println(str1.contains("To"));
 				System.out.println(str1.contains("to"));
